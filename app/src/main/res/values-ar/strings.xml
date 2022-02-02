@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App Task</string>
+    <string name="ahmed_gomaa" translatable="false">أحمد جمعه</string>
+    <string name="print" translatable="false">طباعه</string>
+</resources>

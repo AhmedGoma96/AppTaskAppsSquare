@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">App Task</string>
+    <string name="ahmed_gomaa" translatable="false">Ahmed Gomaa</string>
+    <string name="print" translatable="false">Print</string>
+</resources>
