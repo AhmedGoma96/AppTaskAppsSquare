@@ -7,9 +7,9 @@ import androidx.recyclerview.widget.RecyclerView
 
 class RecyclerViewNumbers : AppCompatActivity() {
 
-     private val numberList = ArrayList<NumberModel>()
+      private val numberList = ArrayList<NumberModel>()
     private lateinit var numberAdapter: NumberListAdapter
-    private lateinit var recyclerview: RecyclerView
+     private lateinit var recyclerview: RecyclerView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_recycler_view_numbers)

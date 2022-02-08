@@ -11,7 +11,7 @@ class SpalashScreen : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_spalash_screen)
         Handler().postDelayed({
-            startActivity(Intent(this,MainActivity::class.java))
+            startActivity(Intent(this,Choose_screen::class.java))
             finish()
         }, spalashScreenTime)
     }

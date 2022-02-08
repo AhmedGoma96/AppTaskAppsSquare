@@ -10,11 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppTask">
         <activity
+            android:name=".Choose_screen"
+            android:exported="true" >
+
+        </activity>
+        <activity
             android:name=".DesignCardTaskRecyclerView"
-            android:exported="false" />
+            android:exported="true">
+
+        </activity>
         <activity
             android:name=".RecyclerViewNumbers"
-            android:exported="true">
+            android:exported="true"></activity>
+        <activity
+            android:name=".SpalashScreen"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,12 +32,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SpalashScreen"
-            android:exported="true"/>
-
-
-        <activity
-            android:name=".MainActivity"
+            android:name=".TaskOne"
             android:exported="true" />
     </application>
 
