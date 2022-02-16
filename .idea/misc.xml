@@ -4,13 +4,18 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/AppTask/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.236" />
+        <entry key="..\:/AppTask/app/src/main/res/layout/activity_add_product.xml" value="0.11302083333333333" />
         <entry key="..\:/AppTask/app/src/main/res/layout/activity_choose_screen.xml" value="0.24010416666666667" />
         <entry key="..\:/AppTask/app/src/main/res/layout/activity_design_card_task_recycler_view.xml" value="0.24547101449275363" />
         <entry key="..\:/AppTask/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/AppTask/app/src/main/res/layout/activity_recycler_view_numbers.xml" value="0.24547101449275363" />
+        <entry key="..\:/AppTask/app/src/main/res/layout/activity_recycler_view_show_products.xml" value="0.11302083333333333" />
         <entry key="..\:/AppTask/app/src/main/res/layout/activity_spalash_screen.xml" value="0.24547101449275363" />
         <entry key="..\:/AppTask/app/src/main/res/layout/card_list_item.xml" value="0.24547101449275363" />
         <entry key="..\:/AppTask/app/src/main/res/layout/number_list_item.xml" value="0.24547101449275363" />
+        <entry key="..\:/AppTask/app/src/main/res/layout/show_pdouct_list_item.xml" value="0.678125" />
+        <entry key="..\:/AppTask/app/src/main/res/layout/show_product_list_item.xml" value="0.11302083333333333" />
+        <entry key="..\:/AppTask/app/src/main/res/layout/task_one.xml" value="0.11302083333333333" />
       </map>
     </option>
   </component>

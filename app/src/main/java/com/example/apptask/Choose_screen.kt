@@ -12,6 +12,7 @@ class Choose_screen : AppCompatActivity() {
         val taskOneButton: Button = findViewById(R.id.taskOneButton)
         val recyclerViewNumbersButton: Button = findViewById(R.id.recyclerViewNumbersButton)
         val recyclerViewCardDesignButton: Button = findViewById(R.id.recyclerViewCardDesignButton)
+        val recyclerViewShowProductsButton: Button = findViewById(R.id.recyclerViewShowProductsButton)
 
         taskOneButton.setOnClickListener{
             val intent = Intent(this, TaskOne::class.java)
@@ -23,6 +24,10 @@ class Choose_screen : AppCompatActivity() {
         }
         recyclerViewCardDesignButton.setOnClickListener{
             val intent = Intent(this, DesignCardTaskRecyclerView::class.java)
+            startActivity(intent)
+        }
+        recyclerViewShowProductsButton.setOnClickListener{
+            val intent = Intent(this, RecyclerViewShowProducts::class.java)
             startActivity(intent)
         }
     }
